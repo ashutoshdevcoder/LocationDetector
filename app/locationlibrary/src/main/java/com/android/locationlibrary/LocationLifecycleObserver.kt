@@ -11,17 +11,22 @@ import com.google.android.gms.location.*
 import com.google.android.gms.tasks.OnSuccessListener
 
 class LocationLifecycleObserver(
-    private val mContext: Context) : DefaultLifecycleObserver {
+    private val mContext: Context,DEFAULT_INTERVAL_IN_MILLISECONDS:Long) : DefaultLifecycleObserver {
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
     private lateinit var mLocationRequest: LocationRequest
-    private val DEFAULT_INTERVAL_IN_MILLISECONDS = 10000L   // default 1 sec/1000 msec - 1000L
     val locationLiveData = MutableLiveData<Location>()
+    private var DEFAULT_INTERVAL_IN_MILLISECONDS:Long
+
+    init {
+        this.DEFAULT_INTERVAL_IN_MILLISECONDS=DEFAULT_INTERVAL_IN_MILLISECONDS
+    }
 
     override fun onCreate(owner: LifecycleOwner) {
         super.onCreate(owner)
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(mContext)
-        mLocationRequest =
-            LocationRequest.create().setInterval(DEFAULT_INTERVAL_IN_MILLISECONDS).setFastestInterval(DEFAULT_INTERVAL_IN_MILLISECONDS).setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
+        mLocationRequest =LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY,DEFAULT_INTERVAL_IN_MILLISECONDS).
+            setMinUpdateIntervalMillis(DEFAULT_INTERVAL_IN_MILLISECONDS)
+            .build();
     }
 
 
@@ -48,12 +53,12 @@ class LocationLifecycleObserver(
     }
 
 
-    var successListener: OnSuccessListener<Location> =
+   private var successListener: OnSuccessListener<Location> =
         OnSuccessListener { location ->
             locationLiveData.postValue(location)
         }
 
-    var mCallback: LocationCallback = object : LocationCallback() {
+   private var mCallback: LocationCallback = object : LocationCallback() {
         override fun onLocationResult(locationResult: LocationResult) {
             if (locationResult.locations.size > 0) {
                 locationLiveData.postValue(locationResult.locations[0])

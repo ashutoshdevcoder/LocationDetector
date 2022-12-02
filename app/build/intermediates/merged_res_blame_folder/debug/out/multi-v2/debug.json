@@ -1938,20 +1938,20 @@
             "outputFile": "com.android.locationdetection.app-merged_res-31:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/ashutosh/Desktop/Development/LocationDetection/app/src/main/res/values/colors.xml",
+                    "source": "/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "54",
+                        "endOffsets": "66"
                     },
                     "to": {
-                        "startLines": "611,843,844,845,856,857,860",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "31106,47835,47882,47929,48673,48718,48884",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "31143,47877,47924,47971,48713,48758,48921"
+                        "startLines": "1699",
+                        "startColumns": "4",
+                        "startOffsets": "105989",
+                        "endColumns": "54",
+                        "endOffsets": "106039"
                     }
                 },
                 {
@@ -1988,6 +1988,23 @@
                         "startOffsets": "99356,108700",
                         "endColumns": "67,166",
                         "endOffsets": "99419,108862"
+                    }
+                },
+                {
+                    "source": "/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "611,843,844,845,856,857,860",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "31106,47835,47882,47929,48673,48718,48884",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "31143,47877,47924,47971,48713,48758,48921"
                     }
                 },
                 {
@@ -2230,7 +2247,7 @@
                     }
                 },
                 {
-                    "source": "/home/ashutosh/Desktop/Development/LocationDetection/app/src/main/res/values/themes.xml",
+                    "source": "/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/res/values/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2318,23 +2335,6 @@
                         "startOffsets": "98736",
                         "endColumns": "49",
                         "endOffsets": "98781"
-                    }
-                },
-                {
-                    "source": "/home/ashutosh/Desktop/Development/LocationDetection/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "54",
-                        "endOffsets": "66"
-                    },
-                    "to": {
-                        "startLines": "1699",
-                        "startColumns": "4",
-                        "startOffsets": "105989",
-                        "endColumns": "54",
-                        "endOffsets": "106039"
                     }
                 }
             ]
@@ -7160,24 +7160,7 @@
                     }
                 },
                 {
-                    "source": "/home/ashutosh/.gradle/caches/transforms-3/35247393b79a5fe3c4f500e2adf3d76f/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,46",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,3931",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,4015"
-                    }
-                },
-                {
-                    "source": "/home/ashutosh/Desktop/Development/LocationDetection/app/src/main/res/values-night/themes.xml",
+                    "source": "/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -7193,6 +7176,23 @@
                         "endLines": "21",
                         "endColumns": "12",
                         "endOffsets": "1272"
+                    }
+                },
+                {
+                    "source": "/home/ashutosh/.gradle/caches/transforms-3/35247393b79a5fe3c4f500e2adf3d76f/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,46",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,3931",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,4015"
                     }
                 }
             ]

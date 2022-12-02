@@ -1,12 +1,12 @@
-#Fri Dec 02 12:37:42 IST 2022
+#Fri Dec 02 15:25:44 IST 2022
 path.3=11/classes.dex
 path.2=0/classes.dex
 path.1=8/classes.dex
 path.0=classes.dex
-base.3=/home/ashutosh/Desktop/Development/LocationDetection/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.2=/home/ashutosh/Desktop/Development/LocationDetection/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.1=/home/ashutosh/Desktop/Development/LocationDetection/app/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex
-base.0=/home/ashutosh/Desktop/Development/LocationDetection/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.2=/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex
+base.0=/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
