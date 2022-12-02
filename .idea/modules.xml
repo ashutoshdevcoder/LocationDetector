@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LocationDetection.iml" filepath="$PROJECT_DIR$/.idea/modules/LocationDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/locationlibrary/LocationDetection.app.locationlibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LocationDetection.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
