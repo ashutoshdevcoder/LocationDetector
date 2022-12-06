@@ -13,7 +13,7 @@ import com.android.locationlibrary.LocationLifecycleObserver
 
 class MainActivity : AppCompatActivity() {
     val locationLifecycleObserver: LocationLifecycleObserver by lazy {
-        LocationLifecycleObserver(this,10000)
+        LocationLifecycleObserver(this,20000)
     }
     private var latitude: Double = 0.0
     private var longitude: Double = 0.0
