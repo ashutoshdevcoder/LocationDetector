@@ -20,3 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -keep public class *
+-keep class !com.android.locationlibrary.LocationLifecycleObserver{
+    <init>(...);
+}
