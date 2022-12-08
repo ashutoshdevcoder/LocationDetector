@@ -4,12 +4,14 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.location.Location
 import android.os.Looper
+import androidx.annotation.Keep
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
 import com.google.android.gms.location.*
 import com.google.android.gms.tasks.OnSuccessListener
 
+@Keep
 class LocationLifecycleObserver(mContext: Context,DEFAULT_INTERVAL_IN_MILLISECONDS:Long) : DefaultLifecycleObserver {
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
     private lateinit var mLocationRequest: LocationRequest
