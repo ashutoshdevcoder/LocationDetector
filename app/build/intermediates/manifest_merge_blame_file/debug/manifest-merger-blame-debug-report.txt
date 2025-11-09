@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.locationdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:4:5-78
+11-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:5:5-80
+12-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:6:5-66
+13-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:6:22-64
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] /home/ashutosh/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.android.locationdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] /home/ashutosh/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] /home/ashutosh/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.android.locationdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] /home/ashutosh/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] /home/ashutosh/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:7:5-30:19
+22        android:allowBackup="true"
+22-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:8:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /home/ashutosh/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:9:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.LocationDetection" >
+32-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:15:9-55
+33        <activity
+33-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:17:9-29:20
+34            android:name="com.android.locationdetection.MainActivity"
+34-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:18:13-41
+35            android:exported="true" >
+35-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:19:13-36
+36            <intent-filter>
+36-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:20:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:21:17-69
+37-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:23:17-77
+39-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41
+42            <meta-data
+42-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:26:13-28:36
+43                android:name="android.app.lib_name"
+43-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:27:17-52
+44                android:value="" />
+44-->/home/ashutosh/Desktop/Development/MyAndroidLibrary/LocationDetector/app/src/main/AndroidManifest.xml:28:17-33
+45        </activity>
+46        <activity
+46-->[com.google.android.gms:play-services-base:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/b1b1a7d78c1ae4fe806247e81f284490/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/b1b1a7d78c1ae4fe806247e81f284490/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/b1b1a7d78c1ae4fe806247e81f284490/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/b1b1a7d78c1ae4fe806247e81f284490/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/f9480eefd82e272c9aa85e3f9fa60051/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/f9480eefd82e272c9aa85e3f9fa60051/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:18.1.0] /home/ashutosh/.gradle/caches/transforms-3/f9480eefd82e272c9aa85e3f9fa60051/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.android.locationdetection.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] /home/ashutosh/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ashutosh/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ashutosh/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ashutosh/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
